@@ -736,6 +736,7 @@ h3.my-profession
     color: var(--text-black-700);
     line-height: 25px;
 }
+/* Project */
 .project .container
 {
     padding-bottom: 40%;
@@ -768,6 +769,12 @@ h3.my-profession
 {
     width: 100%;
     display: block;
+}
+
+.project .project-item-inner .project-img img:hover
+{
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out;
 }
 /* Contact */
 .contact-title
